@@ -196,10 +196,10 @@ def _build_test_conf(env_parser):
         env_conf["users"] = {
             "primary_user": {
                 "identity": {
-                    "account_number": "0369233",
+                    "account_number": "0369234",
                     "type": "User",
                     "auth_type": "basic-auth",
-		            "user": {
+		    "user": {
                         "username": "jdoe",
                         "email": "jdoe@acme.com",
                         "first_name": "John",
@@ -210,7 +210,7 @@ def _build_test_conf(env_parser):
                         "locale": "en_US",
                     },
                     "internal": {
-                        "org_id": "3340851",
+                        "org_id": "3340852",
                         "auth_time": "6300",
                     }
                 },
